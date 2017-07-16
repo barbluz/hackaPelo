@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <?php include 'layouts/header.inc'; ?>
+    <?php 
+        include 'layouts/head.inc'; 
+        include 'layouts/header.inc'; 
+    ?>
     <link rel="stylesheet" href="../../assets/css/stylesheet.css">
     <title>Login</title>
 </head>
