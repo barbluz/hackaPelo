@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-button {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  cursor: pointer;
+}
+.toggle-menu {
+  display: none;
+}
+.toggle-menu ul{
+  list-style: none;
+}
+
+.toggle-menu li {
+  text-align: center;
+  border-top: 1px solid #1e1e1e;
+}
+
+.toggle-menu a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  display: block;
+  padding: 10px 0;
+}
+
+.toggle-menu a:hover {
+  color: black;
+  background: white;
+}
+
+.fa-bars{
+  float: left;
+  margin-left: 3%;
+
+}
