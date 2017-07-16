@@ -7,51 +7,68 @@
     padding: 0;
 }
 
-html #footer{
-    min-height: 100%;
-    position: relative;
+
+#footer {
+    position: fixed;
+    background-color: #E12626;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    padding: 0 10%;
+    font-size: 24px;
 }
 
 nav #footer{
-	background-color: black;
-	color: white;
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	padding: 15px 15px 15px 23%;
-	font-size: 20px;
-}
-
-li {
-	list-style: none;
-	display: inline;
-}
-
-#home, #profile {
-    width: 30%;
-}
-
-#camera{
-	width: 100%;
-	height: 100%;
-}
-
-#home {
-	float: left;
-}
-
-#profile {
-	float: right;
-}
-
-#camera {
-	border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin: 1px;
-    width: 50px;
-    line-height: 50px;
-    background-color: orange;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 15px 15px 15px 23%;
     font-size: 20px;
 }
 
+li {
+    list-style: none;
+    display: inline;
+    color: #f1f1f1;
+}
+
+#home, #profile {
+    margin-top: 5px;
+    width: 26.6%;
+    text-align: center;
+}
+
+#camera{
+    width: 100%;
+    height: 100%;
+}
+
+#home {
+    float: left;
+}
+
+#profile {
+    float: right;
+}
+
+#home, #profile {
+
+}
+
+#camera {
+    border-radius: 50%;
+    display: inline-table;;
+    text-align: center;
+    margin: 1px;
+    width: 62px;
+    line-height: 50px;
+    background-color: chocolate;
+    font-size: 22px;
+    position: absolute;
+    bottom: -16px;;
+    height: 65px;
+    left: 40%;
+}
