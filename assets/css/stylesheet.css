@@ -72,6 +72,34 @@ p {
   float: right;
 }
 
+form {
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  display: block;
+  font-size: 15px;
+  font-family: Montserrat-Regular;
+  padding: 20px;"
+}
+
+#tela2 {
+  height: 100%;
+  width: 100%;
+  color: black;
+  left: 0;
+  overflow: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+#charado2{
+  margin-top: 50%;
+  position: center;
+}
+
 .banner {
   background-color: #f30234;
   margin-bottom: 30px;
@@ -81,6 +109,17 @@ p {
 
 .banner h1 {
   padding-left: 16px;
+}
+
+#tela2 {
+  height: 100%;
+  width: 100%;
+  color: black;
+  left: 0;
+  overflow: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
 }
 
 .banner :first-child {
