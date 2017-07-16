@@ -28,16 +28,65 @@
           ['Monumento da cruz caída', -12.973407, -38.511670],
         ];
 
-        for (i = 0; i < locations.length; i++) {  
+        var look = [
+          [0],
+          [0],
+          [0],
+          [0],
+          [0],
+        ];
+
+      for (i = 0; i < locations.length; i++) { 
+        var lat;
+        var lng;
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 6
+          });
+          var infoWindow = new google.maps.InfoWindow({map: map});
+
+          // Try HTML5 geolocation.
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+              var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude,
+              };
+
+              infoWindow.setPosition(pos);
+              infoWindow.setContent('Location found.');
+              map.setCenter(pos);
+            }, function() {
+              handleLocationError(true, infoWindow, map.getCenter());
+            });
+          } else {
+            // Browser doesn't support Geolocation
+            handleLocationError(false, infoWindow, map.getCenter());
+          }
+        }
+
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+          infoWindow.setPosition(pos);
+          infoWindow.setContent(browserHasGeolocation ?
+                                'Error: The Geolocation service failed.' :
+                                'Error: Your browser doesn\'t support geolocation.');
+        }
+
+        if ((lat == locations[i][1]) && (lng == locations[i][2])) { 
+          look[i] = 1;
+        }
+        if (look[i] == 1) {
           marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
             map: map
           });
         }
       }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    }
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
   </head>
   <body>
   <button onclick="console.log( 'Lat &amp;amp; Long: ' + map.getCenter().k + ',' + map.getCenter().A + ' Zoom: ' + map.getZoom() );">Get Map Co-ords</button>
