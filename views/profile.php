@@ -43,4 +43,10 @@
 
 		</div>
 	</div>
+	<footer>
+	<div id="footer"> 
+		<link href="../assets/css/general.css" type="text/css" rel="stylesheet">
+		<?php include "../includes/navigation.inc";?>
+	</div>
+</footer>
 </body>
