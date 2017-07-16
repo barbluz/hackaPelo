@@ -41,3 +41,13 @@
   margin-left: 3%;
 
 }
+
+#home{
+  text-align: center;
+  background-color: rgba(255, 77, 77, 0.5);
+  color: white;
+}
+
+#descobertas{
+  position: absolute;
+}
