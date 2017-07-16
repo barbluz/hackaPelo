@@ -4,6 +4,257 @@
   font-family: 'Sans';
 }
 
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.toggle-button {
+  background: #ff4d4d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  cursor: pointer;
+}
+
+
+.toggle-menu {
+  display: none;
+}
+
+
+.toggle-menu ul {
+  list-style: none;
+}
+
+
+.toggle-menu li {
+  text-align: center;
+}
+
+
+.toggle-menu a {
+  text-decoration: none;
+  color: white;
+  background: #ff4d4d;
+  display: block;
+  padding: 10px 0;
+}
+
+
+.toggle-menu a:hover {
+  color: black;
+  background: white;
+}
+
+
+.fa-bars {
+  float: left;
+  margin-left: 3%;
+}
+
+
+#Home {
+  text-align: center;
+  background-color: rgba(255, 77, 77, 0.7);
+  color: white;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+}
+
+
+#num {
+  font-size: 20px;
+}
+
+
+#descobertas {
+  position: absolute;
+}
+
+
+p {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+
+#descoberta, #oferta {
+  width: 50%;
+}
+
+
+#descoberta {
+  float: left;
+}
+
+
+#oferta {
+  float: right;
+}
+
+
+input [type="file"] {
+  background-color: orange;
+  visibility: hidden;
+}
+
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+.upload-btn {
+  background-color: #DB7609;
+  color: #F1F1F1;
+  border-radius: 50%;
+  text-align: center;
+  width: 84px;
+  height: 82px;
+  bottom: 13px;
+  left: 8%;
+}
+
+
+.upload-btn:hover, button[type=submit]:hover {
+  background-color: #FF9E40;
+}
+
+
+.fa-camera {
+  margin-top: 17px;
+}
+
+
+.info {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+
+#comments, #views {
+  width: 30%;
+  text-align: center;
+}
+
+
+#comments {
+  float: left;
+}
+
+
+#views {
+  float: right;
+}
+
+
+#pontos {
+  margin-left: 45%;
+}
+
+
+.banner {
+  background-color: #f30234;
+  padding: 7%;
+  color: floralwhite;
+  background-image: url("../images/back.jpg");
+}
+
+
+.banner h3 {
+  padding-left: 16px;
+  text-align: center;
+}
+
+
+.banner :first-child {
+  font-size: x-large;
+}
+
+
+.banner img {
+  border-radius: 100%;
+  align-self: center;
+  margin-left: 21%;
+}
+
+
+.content {
+  padding: 22px;
+  text-indent: 1em;
+}
+
+
+#local :not(:first-child) {
+  font-size: 12px;
+}
+
+
+.achievements {
+  font-family: 'Sans', 'Lato';
+  font-size: 14px;
+}
+
+
+#reward {
+  background-color: #f30234;
+  color: floralwhite;
+  margin-top: 15px;
+  padding: .5em;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+.info {
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+#num {
+  font-size: 20px !important;
+}
+
+
+.orange {
+  color: orange;
+}
+
+
+.icons {
+  padding-top: 00px;
+}
+
+.icons i {
+  width: 50%;
+  position: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .toggle-button {
   background: #ff4d4d;
   color: white;
@@ -28,7 +279,6 @@
   color: white;
   background: #ff4d4d;
   display: block;
-  padding: 10px 0;
 }
 
 .toggle-menu a:hover {
@@ -37,8 +287,7 @@
 }
 
 .fa-bars{
-  float: left;
-  margin-left: 3%;
+  float: center;
 
 }
 
@@ -48,6 +297,9 @@
   color: white;
   width: 100%;
   height: 50px;
+
+#descobertas{
+  position: absolute;
   padding-top: 10px;
 }
 
@@ -71,3 +323,138 @@ p {
 #oferta {
   float: right;
 }
+
+input [type="file"] {
+  background-color: orange;
+  visibility: hidden;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.upload-btn {
+    background-color: #DB7609;
+    color: #F1F1F1;
+    border-radius: 50%;
+    text-align: center;
+    width: 84px;
+    height: 82px;
+    bottom: 13px;
+    left: 8%;;
+}
+
+.upload-btn:hover, button[type=submit]:hover {
+    background-color: #FF9E40;
+}
+
+.fa-camera {
+  margin-top: 17px;
+}
+
+.info {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#comments, #views {
+  width: 30%;
+  text-align: center;
+}
+
+#comments {
+  float: left;
+}
+
+#views {
+  float: right;
+}
+
+#pontos {
+  margin-left: 45%;
+}
+
+.banner {
+  background-color: #f30234;
+  padding: 7%;
+  color: floralwhite;
+  background-image: url("../images/back.jpg");
+}
+
+.banner h3 {
+  padding-left: 16px;
+  text-align: center;
+}
+
+.banner :first-child {
+  font-size: x-large;
+}
+
+.banner img {
+  border-radius: 100%;
+  align-self: center;
+  margin-left: 21%;
+}
+
+.content {
+  padding: 22px;
+  text-indent: 1em;
+}
+
+#local :not(:first-child) {
+  font-size: 12px;
+}
+
+.achievements {
+  font-family: 'Sans', 'Lato';
+  font-size: 14px;
+}
+
+#reward {
+  background-color: #f30234;
+  color: floralwhite;
+  margin-top: 15px;
+  padding: .5em;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.info {
+  font-size: 12px;
+  padding: 10px;
+}
+
+#num {
+  font-size: 20px !important;
+}
+
+.orange {
+  color: orange;
+  float: center;
+}
+
+#circle {
+  border-radius: 50%;
+  display: inline-table;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  float: center;
+  position: static;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
