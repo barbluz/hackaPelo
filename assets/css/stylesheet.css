@@ -109,6 +109,7 @@ p {
   background-color: #f30234;
   color: floralwhite;
   margin-top: 15px;
-  padding: 1em;
-  border-radius: 3px; 
+  padding: .5em;
+  border-radius: 25px;
+  text-align: center;
 }
