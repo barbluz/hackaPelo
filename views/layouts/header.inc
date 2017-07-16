@@ -13,9 +13,7 @@
 	  <div class="toggle-menu" id="toggle-menu">
 	    <ul>
 	      <li><a href="">Home</a></li>
-	      <li><a href="">About</a></li>
-	      <li><a href="">Login</a></li>
-	      <li><a href="">Sign In</a></li>
+	      <li><a href="">Perfil</a></li>
 	    </ul>
 	  </div>
 	</div>
