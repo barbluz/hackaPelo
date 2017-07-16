@@ -71,3 +71,44 @@ p {
 #oferta {
   float: right;
 }
+
+.banner {
+  background-color: #f30234;
+  margin-bottom: 30px;
+  padding: 7%;
+  color: floralwhite;
+}
+
+.banner h1 {
+  padding-left: 16px;
+}
+
+.banner :first-child {
+  font-size: x-large;
+}
+
+.content {
+  padding: 22px;
+  text-indent: 1em;
+}
+
+#local :not(:first-child) {
+  font-size: 12px;
+}
+
+.fa-map-marker:before {
+  font-size: 17px;
+}
+
+.description {
+  font-family: 'Sans', 'Lato';
+  font-size: 14px;
+}
+
+#reward {
+  background-color: #f30234;
+  color: floralwhite;
+  margin-top: 15px;
+  padding: 1em;
+  border-radius: 3px; 
+}
