@@ -12,9 +12,11 @@
 	  <div class= "toggle-button" id="toggle-button"><i class="fa fa-bars" aria-hidden="true"></i>ondeÉqueTá</div>
 	  <div class="toggle-menu" id="toggle-menu">
 	    <ul>
-	      <li><a href="">Home</a></li>
-	      <li><a href="">Perfil</a></li>
-	    </ul>
-	  </div>
+	      <li><a href="../views/home.php">Home</a></li>
+	      <li><a href="../views/login.php">Login</a></li>
+	      <li><a href="../views/profile.php">Perfil</a></li>
+        <li><a href="../views/maps.php">Mapa</a></li>
+      </ul>
+    </div>
 	</div>
 </nav>
