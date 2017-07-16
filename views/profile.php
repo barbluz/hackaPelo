@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="banner">
-		<span id="back"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+		<span id="back"> <a href="home.php"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a></span>
 		<img src="../assets/images/sofia.jpg" alt="Sofia Greve" width="150px">
 		<h3>Sofia Greve</h3>
 	</div>
