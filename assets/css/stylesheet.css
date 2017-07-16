@@ -241,13 +241,13 @@ input [type="file"] {
 }
 
 
-.icons {;;
-  padding-top: 30px;
+.icons {
+  padding-top: 00px;
 }
 
 .icons i {
-  width: 30%;;
-  text-align: center;;;
+  width: 50%;
+  position: center;
 }
 
 a {
@@ -279,7 +279,6 @@ a {
   color: white;
   background: #ff4d4d;
   display: block;
-  padding: 10px 0;
 }
 
 .toggle-menu a:hover {
@@ -288,8 +287,7 @@ a {
 }
 
 .fa-bars{
-  float: left;
-  margin-left: 3%;
+  float: center;
 
 }
 
@@ -299,7 +297,6 @@ a {
   color: white;
   width: 100%;
   height: 50px;
-  padding-top: 10px;
 }
 
 #num {
@@ -446,12 +443,18 @@ input [type="file"] {
 
 .orange {
   color: orange;
+  float: center;
 }
 
 #circle {
   border-radius: 50%;
-  text-align: -webkit-center;
-  height: 70px;
-  width: 70px;
+  display: inline-table;
+  height: 50px;
+  width: 50px;
   background-color: orange;
+  float: center;
+  position: static;
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
+
