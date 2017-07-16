@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+a {
+    text-transform: none;
+}
+
 
 #footer {
     position: fixed;
@@ -52,10 +56,9 @@ li {
 
 #profile {
     float: right;
-}
-
-#home, #profile {
-
+    position: absolute;
+    bottom: 9px;
+    right: 5%;
 }
 
 #camera {
