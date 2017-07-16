@@ -8,24 +8,24 @@
       .wrap { max-width: 75em; min-height: 40em; height:100%; width:100%; margin: 0 auto; padding-top: 2.5%;}
       #map-canvas { height: 90%; }
     </style>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvalcj1Lb1RadLXvtUpxkIuI5BxPaQ4PA&AIzaSyCvalcj1Lb1RadLXvtUpxkIuI5BxPaQ4PA?sensor=true">
     </script>
     <script type="text/javascript">
       var map;
-      var centerPos = new google.maps.LatLng(-12.970382 -38.512382);
-      var zoomLevel = 12;
+      var centerPos = new google.maps.LatLng(-12.9719607,-38.5281963);
+      var zoomLevel = 14;
       function initialize() {
         var mapOptions = {
-          center: centerPos,
-          zoom: zoomLevel
+          center: new google.maps.LatLng(-12.9732258,-38.5112981),
+          zoom: 15
         };
         map = new google.maps.Map( document.getElementById("map-canvas"), mapOptions );
         var locations = [
-          ['Igreja SF', -37.808204, 144.855579],
-          ['Ordem 3 SF', -37.675648, 145.026125],
-          ['Museu Afro-BR', -37.816935, 144.966877],
-          ['Elevador lacerda', -37.818714, 145.036494],
-          ['Monumento da cruz caída', -37.793834, 144.987018],
+          ['Igreja SF', -12.974413, -38.508864],
+          ['Plano inclinado', -12.972118, -38.510504],
+          ['Museu Afro-BR', -12.972738, -38.509878],
+          ['Elevador lacerda', -12.974463, -38.512979],
+          ['Monumento da cruz caída', -12.973407, -38.511670],
         ];
 
         for (i = 0; i < locations.length; i++) {  
