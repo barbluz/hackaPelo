@@ -62,13 +62,13 @@ li {
     border-radius: 50%;
     display: inline-table;;
     text-align: center;
-    margin: 1px;
     width: 62px;
     line-height: 50px;
-    background-color: chocolate;
+    background-color: #FF8813;
     font-size: 22px;
     position: absolute;
-    bottom: -16px;;
+    bottom: -16px;
     height: 65px;
     left: 40%;
+    margin: 1px;
 }
