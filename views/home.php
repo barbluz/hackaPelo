@@ -10,6 +10,7 @@
 		<div id="Home">
 			<div id="descoberta">
 				<span>365 locais a descobrir</span>
+			</div>
 			<div id="oferta">
 				<span>Você tem 100,00</span>
 			</div>
