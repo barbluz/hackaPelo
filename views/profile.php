@@ -3,7 +3,6 @@
 <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../assets/css/stylesheet.css">
-	<link rel="icon" type="image/png" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> Perfil </title>
 </head>
@@ -32,13 +31,13 @@
 	<div class="content">
 		<div class="achievements">
 			<h3>Conquistas</h3>
-			<div class="icons">
-				<span id="circle"><i class="fa fa-bullhorn" aria-hidden="true"></i></span>
-				<span id="circle"></span><i class="fa fa-star" aria-hidden="true"></i>
-				<span id="circle"></span><i class="fa fa-users" aria-hidden="true"></i>
-				<span id="circle"></span><i class="fa fa-ticket" aria-hidden="true"></i>
-				<span id="circle"></span><i class="fa fa-picture-o" aria-hidden="true"></i>
-				<span id="circle"></span><i class="fa fa-info-circle" aria-hidden="true"></i>
+			<div class="circle">
+				<i class="fa fa-bullhorn" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-users" aria-hidden="true"></i>
+				<i class="fa fa-ticket" aria-hidden="true"></i>
+				<i class="fa fa-picture-o" aria-hidden="true"></i>
+				<i class="fa fa-info-circle" aria-hidden="true"></i>
 			</div>
 
 		</div>
