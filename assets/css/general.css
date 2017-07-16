@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 15px 15px 15px 23%;
+	font-size: 20px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+#home, #camera, #profile {
+    width: 30%;
+}
+
+#home {
+	float: left;
+}
+
+#profile {
+	float: right;
+}
+
+#camera {
+	border-radius: 50%;
+	font-size: 23px;
+}
+
+
+#circle {
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+}
+
+#circle {
+	background-color: orange;
+	border-radius: 50%;
+	width: 50px;
+	position: absolute;
+}
