@@ -25,7 +25,7 @@
           ['Plano inclinado', -12.972118, -38.510504],
           ['Museu Afro-BR', -12.972738, -38.509878],
           ['Elevador lacerda', -12.974463, -38.512979],
-          ['Catedral Basílica', -12.973019, -38.510394],
+          ['Catedral Basílica', -12.9684824,-38.511259],
         ];
 
         var look = [
