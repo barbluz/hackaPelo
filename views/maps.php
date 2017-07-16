@@ -25,7 +25,7 @@
           ['Plano inclinado', -12.972118, -38.510504],
           ['Museu Afro-BR', -12.972738, -38.509878],
           ['Elevador lacerda', -12.974463, -38.512979],
-          ['Monumento da cruz caída', -12.973407, -38.511670],
+          ['Catedral Basílica', -12.973019, -38.510394],
         ];
 
         var look = [
@@ -45,8 +45,6 @@
             zoom: 6
           });
           var infoWindow = new google.maps.InfoWindow({map: map});
-
-          // Try HTML5 geolocation.
           if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function(position) {
               var pos = {
@@ -61,7 +59,6 @@
               handleLocationError(true, infoWindow, map.getCenter());
             });
           } else {
-            // Browser doesn't support Geolocation
             handleLocationError(false, infoWindow, map.getCenter());
           }
         }
@@ -69,8 +66,8 @@
         function handleLocationError(browserHasGeolocation, infoWindow, pos) {
           infoWindow.setPosition(pos);
           infoWindow.setContent(browserHasGeolocation ?
-                                'Error: The Geolocation service failed.' :
-                                'Error: Your browser doesn\'t support geolocation.');
+            'Error: The Geolocation service failed.' :
+            'Error: Your browser doesn\'t support geolocation.');
         }
 
         if ((lat == locations[i][1]) && (lng == locations[i][2])) { 
