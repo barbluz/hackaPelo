@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php 
+      include 'layouts/header.inc';
+      include 'layouts/head.inc';
+    ?>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <style type="text/css">
       html { height: 100% }
@@ -29,11 +33,11 @@
         ];
 
         var look = [
-          [0],
-          [0],
-          [0],
-          [0],
-          [0],
+          [1],
+          [1],
+          [1],
+          [1],
+          [1],
         ];
 
       for (i = 0; i < locations.length; i++) { 
@@ -86,9 +90,14 @@
   </script>
   </head>
   <body>
-  <button onclick="console.log( 'Lat &amp;amp; Long: ' + map.getCenter().k + ',' + map.getCenter().A + ' Zoom: ' + map.getZoom() );">Get Map Co-ords</button>
   <div class="wrap">
     <div id="map-canvas"></div>
   </div>
   </body>
+  <footer>
+  <div id="footer"> 
+    <link href="../assets/css/general.css" type="text/css" rel="stylesheet">
+    <?php include "../includes/navigation.inc";?>
+  </div>
+</footer>
 </html>
